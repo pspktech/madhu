@@ -14,9 +14,15 @@
 </head>
 <body data-base="./" data-page="projects">
 <div id="navbar"></div>
+
 <main class="projects page-section" id="projects">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Selected Work</span><h1>My Projects</h1></div>
+    <div class="section-head">
+      <span class="eyebrow">Selected Work</span>
+      <h1>My Projects</h1>
+      <p>Web apps, AI bots and Android tools — each one built end-to-end, from idea to deployment.</p>
+    </div>
+
     <div class="project-grid">
 
       <!-- 01 — WhatsApp AI Bot -->
@@ -29,10 +35,20 @@
         <div class="project-body">
           <span class="project-index">01 — BOT</span>
           <h3>WhatsApp AI Bot</h3>
-          <p>An AI-powered WhatsApp bot that replies to messages automatically using an AI API — built on Node.js.</p>
-          <div class="chips"><span>Node.js</span><span>Express.js</span><span>AI API</span></div>
+          <p>
+            An AI-powered WhatsApp bot built on Node.js that automatically replies
+            to incoming messages using an AI API. It handles common queries,
+            responds in natural language, and can be extended for custom commands
+            and automation flows.
+          </p>
+          <div class="chips">
+            <span>Node.js</span><span>Express.js</span><span>AI API</span><span>WhatsApp Web</span>
+          </div>
           <div class="project-actions">
             <a class="btn btn-sm btn-primary" href="projects/whatsapp-bot.html">View Details</a>
+            <a class="btn btn-sm btn-lime" href="https://github.com/pspktech/whatsapp-ai-bot" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
           </div>
         </div>
       </article>
@@ -47,24 +63,43 @@
         <div class="project-body">
           <span class="project-index">02 — WEBSITE</span>
           <h3>Nandhu Pickles</h3>
-          <p>Homemade pickles store with product showcase, gallery and one-tap WhatsApp ordering.</p>
-          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span></div>
+          <p>
+            A complete e-commerce website for a homemade pickles brand.
+            It includes a product showcase, image gallery, pricing and a
+            one-tap WhatsApp ordering flow — so customers can place orders
+            without a complex checkout system.
+          </p>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+          </div>
           <div class="project-actions">
-            <a class="btn btn-sm btn-lime" href="projects/nandhu-pickles.html">View Details</a>
-            <a class="btn btn-sm" href="https://nandhupickles.netlify.app" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn-sm btn-primary" href="projects/nandhu-pickles.html">View Details</a>
+            <a class="btn btn-sm btn-lime" href="https://nandhupickles.netlify.app" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+            </a>
           </div>
         </div>
       </article>
 
       <!-- 03 — MyInstaPro -->
       <article class="project-card featured">
-        <div class="project-badge">New</div>
+        <div class="project-badge">📱 New</div>
+        <span class="project-index">03 — APP</span>
         <h3>MyInstaPro</h3>
-        <p class="project-desc">Download Instagram videos, reels, photos &amp; stories — fast, free, no watermark.</p>
+        <p class="project-desc">
+          An Android app to download Instagram videos, reels, photos and stories —
+          fast, free and without a watermark. No login required, no ads, no tracking.
+          Also includes blue tick verification requests and an updates channel.
+        </p>
         <div class="project-actions">
           <a href="projects/myinstapro.html" class="btn btn-primary">View Details</a>
+          <a href="https://t.me/madhupatelpspk" class="btn btn-verified" target="_blank" rel="noopener">
+            ✅ Get the App
+          </a>
         </div>
-        <div class="project-tags"><span>Android</span><span>Instagram</span><span>Downloader</span></div>
+        <div class="project-tags">
+          <span>Android</span><span>Instagram</span><span>Downloader</span><span>No Watermark</span>
+        </div>
       </article>
 
       <!-- 04 — Vigneshwara Youth Group -->
@@ -77,15 +112,24 @@
         <div class="project-body">
           <span class="project-index">04 — WEBSITE</span>
           <h3>Vigneshwara Youth Group</h3>
-          <p>Community website — events, members, gallery and announcements in a responsive layout.</p>
-          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span></div>
+          <p>
+            A community website for a local youth group — showcasing events,
+            member information, photo galleries and announcements. Designed
+            with a fully responsive layout so members can access it on any device.
+          </p>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+          </div>
           <div class="project-actions">
-            <a class="btn btn-sm btn-lime" href="projects/vigneshwara.html">View Details</a>
+            <a class="btn btn-sm btn-primary" href="projects/vigneshwara.html">View Details</a>
+            <a class="btn btn-sm btn-lime" href="https://teamvya.netlify.app" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+            </a>
           </div>
         </div>
       </article>
 
-      <!-- 05 — HomeCare (కొత్తది) -->
+      <!-- 05 — HomeCare -->
       <article class="project-card tilt">
         <div class="project-preview preview-pickle">
           <span class="orb orb-1"></span><span class="orb orb-2"></span>
@@ -95,16 +139,25 @@
         <div class="project-body">
           <span class="project-index">05 — WEBSITE</span>
           <h3>Homecare</h3>
-          <p>A modern homecare services web project designed to present at-home care and service information in a clear, approachable way.</p>
-          <div class="chips"><span>Web App</span><span>Responsive UI</span><span>Vercel</span></div>
+          <p>
+            A modern homecare services website designed to present at-home care
+            and service information in a clear, approachable way. The interface
+            follows a simple visitor journey: understand the offering, explore
+            services, and take the next step through the live site.
+          </p>
+          <div class="chips">
+            <span>Web App</span><span>Responsive UI</span><span>Vercel</span>
+          </div>
           <div class="project-actions">
             <a class="btn btn-sm btn-primary" href="projects/HomeCare.html">View Details</a>
-            <a class="btn btn-sm btn-lime" href="https://homecare-mky9rkq0j-madhupatel.vercel.app/" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn-sm btn-lime" href="https://homecare-mky9rkq0j-madhupatel.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+            </a>
           </div>
         </div>
       </article>
 
-      <!-- 06 — InstaSaver (కొత్తది) -->
+      <!-- 06 — InstaSaver -->
       <article class="project-card tilt">
         <div class="project-preview preview-insta">
           <span class="orb orb-1"></span><span class="orb orb-2"></span>
@@ -114,11 +167,18 @@
         <div class="project-body">
           <span class="project-index">06 — APP</span>
           <h3>InstaSaver</h3>
-          <p>Open-source Android app built with Kotlin to download Instagram Reels, posts and profile pictures — fast, clean and privacy-focused.</p>
-          <div class="chips"><span>Kotlin</span><span>MVVM</span><span>Android Jetpack</span><span>Material Design</span></div>
+          <p>
+            An open-source Android app built with Kotlin to download Instagram
+            Reels, posts and profile pictures — fast, clean and privacy-focused.
+            Paste a link, tap download, and the media is saved to your device.
+            No login, no ads, no tracking.
+          </p>
+          <div class="chips">
+            <span>Kotlin</span><span>MVVM</span><span>Android Jetpack</span><span>Material Design</span>
+          </div>
           <div class="project-actions">
             <a class="btn btn-sm btn-primary" href="projects/InstaSaver.html">View Details</a>
-            <a class="btn btn-sm btn-lime" href="https://github.com/pspktech/InstaSaver/releases/latest" target="_blank" rel="noopener">
+            <a class="btn btn-sm btn-lime" href="https://github.com/pspktech/InstaSaver/releases/latest" target="_blank" rel="noopener noreferrer">
               <i class="fa-solid fa-download"></i> APK
             </a>
           </div>
@@ -128,6 +188,7 @@
     </div>
   </div>
 </main>
+
 <div id="footer"></div>
 <script src="./js/main.js"></script>
 </body>
