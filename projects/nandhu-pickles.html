@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Nandhu Pickles — Madhu Patel</title>
-<meta name="description" content="A homemade pickles store and e-commerce showcase.">
+<meta name="description" content="E-commerce website for homemade pickles with WhatsApp ordering by Madhu Patel.">
 <meta name="theme-color" content="#0e0e10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +13,78 @@
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body data-base="../" data-page="project">
-<div id="navbar"></div>
-<main class="projects page-section"><div class="container"><a class="eyebrow" href="../projects.html">← All Projects</a><div class="project-detail"><div class="project-preview preview-pickle"><span class="orb orb-1"></span><span class="orb orb-2"></span><i class="fa-solid fa-jar"></i><span class="preview-tag">E-Commerce</span></div><div class="project-body"><span class="project-index">PROJECT</span><h1>Nandhu Pickles</h1><p class="project-desc">A clean product showcase with gallery and one-tap WhatsApp ordering for a homemade pickles brand.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span></div><div class="project-actions"><a class="btn btn-primary" href="https://t.me/madhupatelpspk" target="_blank" rel="noopener">DM for Project Details</a></div></div></div></div></main>
-<div id="footer"></div>
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="../index.html" class="brand">Madhu<span>.</span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="container">
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main class="projects page-section">
+  <div class="container">
+    <a class="eyebrow" href="../projects.html">← All Projects</a>
+    <div class="project-detail">
+      <div class="project-preview preview-pickle">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <i class="fa-solid fa-jar"></i>
+        <span class="preview-tag">E-Commerce</span>
+      </div>
+      <div class="project-body">
+        <span class="project-index">02 — WEBSITE</span>
+        <h1>Nandhu Pickles</h1>
+        <p class="project-desc">
+          A complete e-commerce website for a homemade pickles brand.
+          It includes a product showcase, image gallery, pricing and a
+          one-tap WhatsApp ordering flow — so customers can place orders
+          without a complex checkout system.
+        </p>
+        <h3>Project Focus</h3>
+        <p>
+          The site is designed for a small home business: clean product cards,
+          a simple gallery, and a direct WhatsApp order button. No payment
+          gateway needed — customers tap and chat to order.
+        </p>
+        <h3>Built With</h3>
+        <ul class="project-list">
+          <li><i class="fa-brands fa-html5"></i> Semantic HTML</li>
+          <li><i class="fa-brands fa-css3-alt"></i> Responsive CSS</li>
+          <li><i class="fa-brands fa-js"></i> Vanilla JavaScript</li>
+          <li><i class="fa-solid fa-cloud"></i> Deployed on Netlify</li>
+        </ul>
+        <div class="chips">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+        </div>
+        <div class="project-actions">
+          <a class="btn btn-lime" href="https://nandhupickles.netlify.app" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+          <a class="btn btn-primary" href="https://t.me/madhupatelpspk" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-telegram"></i> DM for Code
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">© 2026 Madhu Patel — Built with code &amp; overthinking.</div>
+</footer>
 <script src="../js/main.js"></script>
 </body>
 </html>
