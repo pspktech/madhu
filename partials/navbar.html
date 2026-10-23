@@ -1,25 +1,28 @@
 <header class="nav" id="nav">
-  <div class="nav-inner container">
-    <a href="{{BASE}}index.html" class="brand">Madhu<span>.</span></a>
+  <div class="container nav-inner">
+    <a href="/index.html" class="brand">Madhu<span>.</span></a>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/index.html#home">Profile</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">View My Projects</a>
+      <a href="/index.html#skills">Skills</a>
+      <a href="/index.html#contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu"
+            aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
     </button>
+  </div>
 
-    <ul class="nav-links">
-      <li><a href="{{BASE}}index.html" data-page="home">Home</a></li>
-      <li><a href="{{BASE}}about.html" data-page="about">About</a></li>
-      <li><a href="{{BASE}}projects.html" data-page="projects">Projects</a></li>
-      <li><a href="{{BASE}}contact.html" data-page="contact">Contact</a></li>
-    </ul>
-
-    <ul class="mobile-menu" id="mobileMenu">
-      <li><a href="{{BASE}}index.html" data-page="home">Home</a></li>
-      <li><a href="{{BASE}}about.html" data-page="about">About</a></li>
-      <li><a href="{{BASE}}projects.html" data-page="projects">Projects</a></li>
-      <li><a href="{{BASE}}contact.html" data-page="contact">Contact</a></li>
-    </ul>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="container">
+      <a href="/index.html#home">Profile</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">View My Projects</a>
+      <a href="/index.html#skills">Skills</a>
+      <a href="/index.html#contact">Contact</a>
+    </div>
   </div>
 </header>
