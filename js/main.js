@@ -31,3 +31,19 @@
 
   if (window.matchMedia('(hover:hover) and (pointer:fine)').matches) document.querySelectorAll('.tilt').forEach(card => { card.addEventListener('mousemove', e => { const r = card.getBoundingClientRect(); const x = (e.clientX-r.left)/r.width-.5, y = (e.clientY-r.top)/r.height-.5; card.style.transform = `perspective(900px) rotateY(${x*6}deg) rotateX(${-y*6}deg) translateY(-6px)`; }); card.addEventListener('mouseleave', () => card.style.transform = ''); });
 })();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navMount = document.getElementById("navbar");
+  if (navMount) {
+    fetch("partials/navbar.html")
+      .then(res => res.text())
+      .then(html => { navMount.innerHTML = html; });
+  }
+
+  const footMount = document.getElementById("footer");
+  if (footMount) {
+    fetch("partials/footer.html")
+      .then(res => res.text())
+      .then(html => { footMount.innerHTML = html; });
+  }
+});
