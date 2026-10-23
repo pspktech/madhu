@@ -1,1 +1,25 @@
-<header class="nav" id="nav"><div class="container nav-inner"><a href="{{BASE}}index.html" class="brand">Madhu<span>.</span></a><nav class="nav-links" aria-label="Main"><a data-page="about" href="{{BASE}}about.html">About</a><a data-page="projects" href="{{BASE}}projects.html">Projects</a><a data-page="skills" href="{{BASE}}index.html#skills">Skills</a><a data-page="contact" href="{{BASE}}contact.html">Contact</a></nav><button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div><div class="mobile-menu" id="mobileMenu"><div class="container"><a data-page="about" href="{{BASE}}about.html">About</a><a data-page="projects" href="{{BASE}}projects.html">Projects</a><a data-page="skills" href="{{BASE}}index.html#skills">Skills</a><a data-page="contact" href="{{BASE}}contact.html">Contact</a></div></div></header>
+<header class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="{{BASE}}index.html" class="brand">Madhu<span>.</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="{{BASE}}index.html" data-page="home">Home</a></li>
+      <li><a href="{{BASE}}about.html" data-page="about">About</a></li>
+      <li><a href="{{BASE}}projects.html" data-page="projects">Projects</a></li>
+      <li><a href="{{BASE}}contact.html" data-page="contact">Contact</a></li>
+    </ul>
+
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="{{BASE}}index.html" data-page="home">Home</a></li>
+      <li><a href="{{BASE}}about.html" data-page="about">About</a></li>
+      <li><a href="{{BASE}}projects.html" data-page="projects">Projects</a></li>
+      <li><a href="{{BASE}}contact.html" data-page="contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
